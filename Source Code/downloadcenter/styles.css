@@ -1,0 +1,178 @@
+.path-local-downloadcenter form fieldset > div > div.fitem.femptylabel {
+    display: none;
+}
+
+.path-local-downloadcenter form .warningmessage {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.path-local-downloadcenter .include_setting,
+.path-local-downloadcenter .grouped_settings .normal_setting {
+    display: inline-block;
+}
+
+.path-local-downloadcenter .mform .grouped_settings {
+    overflow: hidden;
+}
+
+.path-local-downloadcenter .mform .block {
+    padding-top: 5px;
+    padding-left: 1rem;
+}
+
+
+.path-local-downloadcenter .core_progress_display_if_slow {
+    width: 500px;
+}
+
+.path-local-downloadcenter #mform2 #fitem_id_submitbutton {
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.path-local-downloadcenter form .itemtitle {
+    font-weight: normal;
+}
+
+.path-local-downloadcenter form .block .fitem label .sectiontitle,
+.path-local-downloadcenter form .block .fitem .fitemtitle label .sectiontitle,
+.path-local-downloadcenter form .itemtitle span {
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+}
+.path-local-downloadcenter form .itemtitle span,
+.path-local-downloadcenter form .block .fitem label .sectiontitle {
+    vertical-align: text-bottom;
+}
+
+.path-local-downloadcenter form .activityicon {
+    width: 24px;
+    margin-top: -10px;
+}
+
+.path-local-downloadcenter form #mod_select_links .activityicon {
+    margin-top: 0;
+    margin-right: 0.5rem;
+}
+
+
+.path-local-downloadcenter .mform .grouped_settings .fitem div.fitemtitle {
+    padding-top: 0;
+}
+
+.path-local-downloadcenter #mod_select_links {
+    overflow: hidden;
+}
+
+/* boost fixes */
+
+.path-local-downloadcenter #region-main .card-body .card.block .col-md-3 {
+    display: none;
+}
+
+
+.path-local-downloadcenter #region-main .card-body .card.block {
+    margin-bottom: 0.5rem;
+}
+
+.path-local-downloadcenter #region-main .card.block:nth-child(2n) {
+    background-color: #f5f5f5;
+}
+
+.path-local-downloadcenter #region-main .card.block.grouped_settings {
+    background-color: #fff;
+}
+
+.path-local-downloadcenter #region-main .card.block .form-group.downloadcenter_selector label span,
+.path-local-downloadcenter #region-main .card.block .form-group:first-child label span,
+.path-local-downloadcenter #region-main .card.block .form-group:first-child label,
+.path-local-downloadcenter #region-main .card.block .form-group:first-child {
+    font-weight: bold;
+}
+
+.path-local-downloadcenter #region-main .card.block .form-group {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* delete first empty row used in hack :) */
+.path-local-downloadcenter #region-main .card-body .mform .warningmessage + .fitem {
+    display: none;
+}
+
+
+/* boost fixes end */
+
+.path-local-downloadcenter .mform .row label {
+    width: 100%;
+}
+
+.path-local-downloadcenter .mform .row.downloadcenter_selector label {
+    margin-right: 10px;
+    width: auto;
+}
+
+.path-local-downloadcenter .mform .row.downloadcenter_selector {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.path-local-downloadcenter #region-main .mform .card.block .form-group.row .col-md-9.checkbox {
+
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+@media (min-width: 1475px) {
+    .path-local-downloadcenter form .fitemtitle {
+        float: none;
+    }
+
+    .path-local-downloadcenter form .itemtitle span {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 1475px) {
+    .path-local-downloadcenter form .fitemtitle {
+        float: none;
+    }
+
+    .path-local-downloadcenter form .itemtitle span {
+        max-width: 90%;
+    }
+
+}
+
+@media (max-width: 1229px) {
+    .path-local-downloadcenter #region-main .mform .fitem.downloadcenter_selector .col-md-9 {
+        padding-left: 30px;
+    }
+    .path-local-downloadcenter form .itemtitle span {
+        max-width: 85%;
+    }
+}
+
+
+@media (max-width: 499px) {
+    .path-local-downloadcenter form .itemtitle span {
+        max-width: 78%;
+    }
+
+
+}
+
+@media (max-width: 319px) {
+    .path-local-downloadcenter form .itemtitle span {
+        max-width: 100px;
+    }
+
+
+}
